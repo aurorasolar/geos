@@ -205,7 +205,7 @@ OverlayOp::insertUniqueEdges(vector<Edge*> *edges, const Envelope *env)
   }
 /*
 	for_each(edges->begin(), edges->end(),
-			bind1st(mem_fun(&OverlayOp::insertUniqueEdge), this));
+			bind1st(mem_fn(&OverlayOp::insertUniqueEdge), this));
 */
 }
 
